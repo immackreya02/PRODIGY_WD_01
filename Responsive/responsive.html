@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radiance Room Spa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Radiance Room</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="home-section">
+        <div class="container hero">
+            <h1>Welcome to Radiance Room Spa!</h1>
+            <p>Your ultimate destination for relaxation and beauty.</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Professional nail care and artistry to keep your hands and feet looking flawless.</p>
+                </div>
+                <div class="card">
+                    <h3>Facials</h3>
+                    <p>Rejuvenate your skin with our luxurious facial treatments tailored to your needs.</p>
+                </div>
+                <div class="card">
+                    <h3>Body Massages</h3>
+                    <p>Relax and unwind with our variety of therapeutic and soothing massage options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-cards">
+                <div class="price-card">
+                    <img src="https://thumbs.dreamstime.com/b/manicure-pedicure-relaxing-flowers-25663802.jpg"alt="Basic Plan"/>
+                    <h3>Basic</h3>
+                    <p>Rs.850</p>
+                    <p class="desc">Essential manicure and pedicure services for a fresh look.</p>
+                </div>
+                <div class="price-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPWZOO-C03QXXc-65MCZdnqzcN0lM2yXEmcQ&s" alt="Standard Plan" />
+                    <h3>Standard</h3>
+                    <p>Rs.1750</p>
+                    <p class="desc">Includes facials and nail care for comprehensive pampering.</p>
+                </div>
+                <div class="price-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVEOrKUKImQZGT1-8RtBZ_pB5FtmyqQ0C4lQ&s" alt="Premium Plan" />
+                    <h3>Premium</h3>
+                    <p>Rs.2500</p>
+                    <p class="desc">Complete spa experience with massages, facials, and nails.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Radiance Room Spa is dedicated to providing a luxurious and relaxing experience that nurtures your body and soul. Our staffs specialize in premium beauty treatments that leave you feeling refreshed and radiant.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script src="responsive.js"></script>
+</body>
+</html>
